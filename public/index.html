@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ccwebapp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to ccwebapp</h1>
+            <p class="subtitle">A simple web application</p>
+        </header>
+        
+        <main>
+            <section class="card">
+                <h2>About</h2>
+                <p>This is a basic web application built with Node.js and Express.</p>
+            </section>
+            
+            <section class="card">
+                <h2>Features</h2>
+                <ul>
+                    <li>Express.js backend server</li>
+                    <li>RESTful API endpoints</li>
+                    <li>Static file serving</li>
+                    <li>Responsive design</li>
+                </ul>
+            </section>
+            
+            <section class="card">
+                <h2>Server Status</h2>
+                <button id="checkStatus" class="btn">Check Server Status</button>
+                <div id="statusResult" class="status-result"></div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 ccwebapp</p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
